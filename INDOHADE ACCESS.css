@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50; /* Warna latar belakang abu-abu muda */
+}
+
+header {
+    background-color: #800101; /* Merah */
+    color: #ffffff; /* Putih untuk teks */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Putih */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #ffffff; /* Putih */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-media {
+    display: flex; /* Menggunakan flexbox untuk tata letak horizontal */
+    justify-content: center; /* Mengatur agar tombol berada di tengah */
+    flex-wrap: wrap; /* Membungkus jika ruang tidak cukup */
+}
+
+.social-media button {
+    background-color: #ffffff; /* Warna latar belakang tombol */
+    border: 1px solid #ffffff; /* Warna border tombol */
+    color: #070707; /* Merah untuk teks tombol */
+    padding: 10px 15px; /* Padding tombol */
+    margin: 5px; /* Margin antar tombol */
+    border-radius: 5px; /* Sudut tombol melengkung */
+    cursor: pointer; /* Kursor saat hover */
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    align-items: center; /* Vertikal center */
+}
+
+.social-media button img {
+    width: 20px; /* Atur lebar ikon */
+    height: 20px; /* Atur tinggi ikon */
+    margin-right: 8px; /* Jarak antara ikon dan teks */
+}
+
+.social-media button:hover {
+    background-color: #c0392b; /* Warna latar belakang saat hover */
+    color: white; /* Warna teks saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50; /* Abu-abu gelap */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
